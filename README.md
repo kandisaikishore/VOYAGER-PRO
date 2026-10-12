@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# VOYAGER-PRO
 
-# Run and deploy your AI Studio app
+A software project repository for a travel- or journey-oriented product concept. The exact supported journeys and integrations should be verified in the current source.
 
-This contains everything you need to run your app locally.
+## Overview
 
-View your app in AI Studio: https://ai.studio/apps/fc1159b8-2be8-49cf-9cc9-71a40129c6a1
+This README helps developers and reviewers orient themselves in the repository without assuming external services or capabilities that may not yet be wired up.
 
-## Run Locally
+## Getting started
 
-**Prerequisites:**  Node.js
+```bash
+git clone https://github.com/saikishore2410/VOYAGER-PRO.git
+cd VOYAGER-PRO
+```
 
+Follow the setup and run commands in the framework-specific configuration. Add only the environment variables required by the implementation.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Before release
+
+- Verify primary user journeys end to end
+- Clearly distinguish sample data from live travel data
+- Protect API credentials and personal information
+- Document external API limits, error states, and fallback behaviour
+- Add tests and deployment/rollback steps
+
+## Contributions
+
+Use issues to discuss changes and pull requests to propose focused, reviewable improvements.
+
+## License
+
+No license is specified. Add a `LICENSE` file to define reuse terms.
