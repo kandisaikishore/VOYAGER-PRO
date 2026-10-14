@@ -1,50 +1,44 @@
 # VOYAGER-PRO
 
-## Live Demo / Deployment URL
+[![Source](https://img.shields.io/badge/Source-GitHub-181717?logo=github)](https://github.com/kandisaikishore/VOYAGER-PRO) [![Last Commit](https://img.shields.io/github/last-commit/kandisaikishore/VOYAGER-PRO)](https://github.com/kandisaikishore/VOYAGER-PRO/commits/main)
 
-**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. The repository's GitHub URL is the source code, not a deployed application.
+VOYAGER-PRO is a travel-oriented software project for exploring trip planning and destination discovery experiences. The repository is the source of truth for the routes, services, and integrations currently implemented.
 
+## Project goals
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/VOYAGER-PRO) [![Issues](https://img.shields.io/github/issues/saikishore2410/VOYAGER-PRO)](https://github.com/saikishore2410/VOYAGER-PRO/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/VOYAGER-PRO)](https://github.com/saikishore2410/VOYAGER-PRO/commits/main)
-
-> A software project for a travel- or journey-oriented product concept. The exact supported journeys and integrations should be verified in the current source.
-
-## At a glance
-
-- **Purpose:** Use the feature and scope sections below to understand the problem this project addresses.
-- **Getting started:** Follow the repository-specific setup instructions and verify commands against the current source and package scripts.
-- **Configuration:** Keep API keys, database credentials, tokens, and private user data out of commits; configure secrets locally.
-- **Quality checks:** Run the available build, test, and lint commands before submitting changes.
-
-
-
-A software project for a travel- or journey-oriented product concept. The exact supported journeys and integrations should be verified in the current source.
-
-## Overview
-
-This README helps developers and reviewers orient themselves in the repository without assuming external services or capabilities that may not yet be connected.
+- Present travel or destination information clearly
+- Provide a foundation for itinerary-oriented workflows
+- Make trip details easy to navigate and review
+- Keep external travel data and availability claims accurate
 
 ## Getting started
 
 ```bash
-git clone https://github.com/saikishore2410/VOYAGER-PRO.git
+git clone https://github.com/kandisaikishore/VOYAGER-PRO.git
 cd VOYAGER-PRO
 ```
 
-Follow the framework-specific install and run steps in the project configuration. Add only the environment variables required by the implementation.
+Install prerequisites and dependencies according to the framework and manifests in the repository, then use its configured development command. Store tokens and API keys in local environment variables.
 
-## Before release
+## Quality checklist
 
-- Verify primary user journeys end to end
-- Distinguish sample data from live travel data
-- Protect API credentials and personal information
-- Document external API limits, error states, and fallback behaviour
-- Add tests and deployment/rollback steps
+- Test navigation and route transitions
+- Validate destination and date inputs where used
+- Clearly label mock travel data
+- Handle unavailable external services and empty results
+- Verify responsive layouts and accessible controls
 
-## Contributions
+## Future improvements
 
-Use issues to discuss changes and pull requests to propose focused, reviewable improvements.
+- Add or refine itinerary editing and saved trips
+- Document travel data sources and refresh frequency
+- Add tests for invalid dates, empty search results, and error states
+- Provide deployment and configuration guidance
+
+## Contributing
+
+Open issues with reproduction steps and submit focused changes with test results.
 
 ## License
 
-No license is specified. Add a `LICENSE` file to define reuse terms.
+No license file is currently declared. Add a `LICENSE` file to define reuse terms.
